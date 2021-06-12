@@ -8,8 +8,9 @@ public class Inteiro0_1000 {
 		int numero=0;
 		
 		while (numero <= 1000) {
-			numero = numero + 1;
+
 			System.out.println(numero);
+			numero = numero + 2;
 		}
 
 		leitor.close();
